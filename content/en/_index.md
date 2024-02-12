@@ -1,63 +1,109 @@
 ---
-title: "pc-switch"
+title: pc-switch
 ---
 
-{{< blocks/cover title="The pc-switch" image_anchor="top" height="full" >}}
-<div class="mx-auto">
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
-		Build your own <i class="fas fa-arrow-alt-circle-right ml-2"></i>
-	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
-		ESPHome Webflasher <i class="fab fa-github ml-2 "></i>
-	</a>
-	<p class="lead mt-5">Control your PC - WITHOUT the cloud!</p>
-	{{< blocks/link-down color="info" >}}
-</div>
-
-
+{{< blocks/cover title="pc-switch: Remotely control your PC, Server and NAS!" image_anchor="top" height="full" color="primary" >}}
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
+  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+</a>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="#">
+  Buy now <i class="fa fa-cart-shopping ms-2 "></i>
+</a>
+<p class="lead mt-5">Your PC needs this.</p>
+{{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
+<!--  -->
 
-{{% blocks/lead color="primary" %}}
-The pc-switch allows you to control your Desktop PC with Home Assistant.
+{{% blocks/section color="dark" type="row" %}}
 
-Provides a single web UI providing visibility into porridge temperature, chair size, and bed softness metrics! You can even find out who's been eating **your** porridge.
-
-{{% /blocks/lead %}}
-
-{{< blocks/section color="dark" >}}
-{{% blocks/feature icon="fa-computer" title="Control your PC with Home Assistant!" %}}
-Native Home Assistant integration
+{{% blocks/feature icon="fa-lightbulb" title="Your PC is in a different room or even a rack?" %}}
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fa fa-cloud-bolt" title="No cloud!!" %}}
-You can control your PC even if the internet is down
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fa-regular fa-power-off" title="Turn your PC on/off" %}}
-Normally power on and off your PC
+{{% blocks/feature icon="fab fa-github" title="Local Game Streaming" %}}
+You have a powerful gaming PC but you can not turn it on with your TV or handheld like the Steam Deck?
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fa-regular fa-arrow-rotate-right" title="Soft reset" %}}
-Toggle the reset button
+{{% blocks/feature icon="fab fa-twitter" title="Integrate into Home Assistant" %}}
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-regular fa-baseball-bat-ball" title="Hard reset" %}}
-Toggle a hard reset when the system froze
+{{% blocks/feature icon="fab fa-twitter" title="Shutdown timetable for kids" %}}
+Your kids tend to use the PC more than you would like.
+You can easily create shutdown timers in Home Assistant.
 {{% /blocks/feature %}}
 
-
-{{% blocks/feature icon="fa fa-wave-square" title="Monitor your PC power state" %}}
-You can check if you PC is on or off via the Power LED front panel connector
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fa fa-toggle-off" title="Keep your front IO" %}}
-You can still use your power and reset button
+{{% blocks/feature icon="fab fa-twitter" title="Want to save some energy on your server or NAS?" %}}
+Instead of running 24/7 you could shutdown your system over night.
+8 hours less uptime means 33% savings on your energy bill.
 {{% /blocks/feature %}}
 
 
 
-{{< /blocks/section >}}
+{{% /blocks/section %}}
 
+
+{{% blocks/section %}}
+<div class="text-center">
+You need the <b>pc-switch</b>!
+</div>
+{{% /blocks/section %}}
+
+
+{{% blocks/section type="row" %}}
+
+
+
+{{% blocks/feature icon="fab fa-github" title="Turn your PC on and off" %}}
+Regular power button functionality.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-github" title="Reset your PC" %}}
+Regular reset button functionality.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-github" title="Hard Reset" %}}
+If a normal shutdown does not work you can force your system with a hard reset as a last resort.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-github" title="Monitor On/Off State" %}}
+See when and how long your PC was ON or OFF.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-github" title="Still use your Front IO" %}}
+Of course you can still use the power and reset button on your PC case.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-twitter" title="Standalone mode" %}}
+The Web Interface allows you to control the PC on your phone and without Home Assistant.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-twitter" title="Local API" %}}
+You can integrate the pc-switch via a simple API to almost anything you like
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-twitter" title="No Cloud!" %}}
+We value your privacy
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-app-store-ios" title="No **propriaty** App needed" %}}
+Everything is manageable via the web interface or the Home Assistant integration.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-app-store-ios" title="No subscription. **EVER!**" %}}
+Everything is manageable via the web interface or the Home Assistant integration.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-app-store-ios" title="You own the Hardware" %}}
+Everything is manageable via the web interface or the Home Assistant integration.
+{{% /blocks/feature %}}
+
+{{% /blocks/section %}}
+
+
+{{% blocks/section %}}
+<div class="text-center">
+Proudly made with ESPHome
+</div>
+{{% /blocks/section %}}
