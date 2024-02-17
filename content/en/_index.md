@@ -6,8 +6,8 @@ title: pc-switch
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="#">
-  Buy now <i class="fa fa-cart-shopping ms-2 "></i>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://forms.gle/sxy2RqHZSaN4fWXs5">
+  Give me some feedback! <i class="fa fa-comment ms-2 "></i>
 </a>
 <p class="lead mt-5">Your PC needs this.</p>
 {{< blocks/link-down color="info" >}}
@@ -17,26 +17,31 @@ title: pc-switch
 
 {{% blocks/section color="dark" type="row" %}}
 
-{{% blocks/feature icon="fa-lightbulb" title="Your PC is in a different room or even a rack?" %}}
+{{% blocks/feature icon="fa fa-server" title="Your Server or NAS is in a different room or even a rack?" %}}
+
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-github" title="Local Game Streaming" %}}
+{{% blocks/feature icon="fa fa-gamepad" title="Local Game Streaming" %}}
 You have a powerful gaming PC but you can not turn it on with your TV or handheld like the Steam Deck?
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-twitter" title="Integrate into Home Assistant" %}}
+{{% blocks/feature icon="fa fa-house-signal" title="Integrate into Home Assistant" %}}
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Shutdown timetable for kids" %}}
+{{% blocks/feature icon="fa fa-children" title="Hardware Parental control for Kids" %}}
 Your kids tend to use the PC more than you would like.
 You can easily create shutdown timers in Home Assistant.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Want to save some energy on your server or NAS?" %}}
-Instead of running 24/7 you could shutdown your system over night.
-8 hours less uptime means 33% savings on your energy bill.
+{{% blocks/feature icon="fa fa-plug-circle-bolt" title="Save on your power bill" %}}
+Save 33% power by powering off your PC, NAS or Server over night (8 hours of sleep).
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fa fa-tape" title="Connect to anything" %}}
+With a local API you can integrate that into whatever you want.
 {{% /blocks/feature %}}
 
 
@@ -55,35 +60,35 @@ You need the <b>pc-switch</b>!
 
 
 
-{{% blocks/feature icon="fab fa-github" title="Turn your PC on and off" %}}
+{{% blocks/feature icon="fa fa-power-off" title="Turn your PC on and off" %}}
 Regular power button functionality.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Reset your PC" %}}
+{{% blocks/feature icon="fa fa-arrow-rotate-left" title="Reset your PC" %}}
 Regular reset button functionality.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Hard Reset" %}}
+{{% blocks/feature icon="fa fa-baseball-bat-ball" title="Hard Reset" %}}
 If a normal shutdown does not work you can force your system with a hard reset as a last resort.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Monitor On/Off State" %}}
+{{% blocks/feature icon="fa fa-eye" title="Monitor On/Off State" %}}
 See when and how long your PC was ON or OFF.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Still use your Front IO" %}}
+{{% blocks/feature icon="fa fa-computer" title="Still use your Front IO" %}}
 Of course you can still use the power and reset button on your PC case.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Standalone mode" %}}
+{{% blocks/feature icon="fa fa-mobile-screen-button" title="Standalone mode" %}}
 The Web Interface allows you to control the PC on your phone and without Home Assistant.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Local API" %}}
+{{% blocks/feature icon="fa fa-puzzle-piece" title="Local API" %}}
 You can integrate the pc-switch via a simple API to almost anything you like
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="No Cloud!" %}}
+{{% blocks/feature icon="fa fa-cloud" title="No Cloud!" %}}
 We value your privacy
 {{% /blocks/feature %}}
 
@@ -91,12 +96,13 @@ We value your privacy
 Everything is manageable via the web interface or the Home Assistant integration.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-app-store-ios" title="No subscription. **EVER!**" %}}
+{{% blocks/feature icon="fa fa-hand-holding-dollar" title="No subscription. **EVER!**" %}}
 Everything is manageable via the web interface or the Home Assistant integration.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-app-store-ios" title="You own the Hardware" %}}
-Everything is manageable via the web interface or the Home Assistant integration.
+{{% blocks/feature icon="fa fa-microchip" title="You own the Hardware" %}}
+You can flash the standalone version, the Home Assistant version or any other software.
+It is yours and will even work if the project is dead.
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
