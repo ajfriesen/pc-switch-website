@@ -185,11 +185,11 @@ enable = false
   url = "https://github.com/ajfriesen/pc-switch"
   icon = "fab fa-github"
   desc = "Here you can find the repo"
-[[params.links.developer]]
-  name = "Open Source Hardware Lab"
-  url = "https://oshwlab.com/ajfriesen/pc-swtich"
-  icon = "fa fa-microchip"
-  desc = "Want to edit the pc-switch to your liking? Here can start from mine and build your own on top of it."
+# [[params.links.developer]]
+  # name = "Open Source Hardware Lab"
+  # url = "https://oshwlab.com/ajfriesen/pc-swtich"
+  # icon = "fa fa-microchip"
+  # desc = "Want to edit the pc-switch to your liking? Here can start from mine and build your own on top of it."
 
 # hugo module configuration
 
