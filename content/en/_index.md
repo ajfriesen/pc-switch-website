@@ -3,13 +3,13 @@ title: pc-switch
 ---
 
 {{< blocks/cover title="pc-switch: Remotely control your PC, Server and NAS!" image_anchor="top" height="full" color="primary" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-</a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://forms.gle/sxy2RqHZSaN4fWXs5">
-  Give me some feedback! <i class="fa fa-comment ms-2 "></i>
-</a>
-<p class="lead mt-5">Your PC needs this.</p>
+<p class="lead mt-5 fs-1 fw-bold font-monospace"><b>Your PC needs this!</b></p>
+
+<br>
+
+<div style="min-height: 58px; max-width: 440px;width: 100%;position: absolute; left: 50%; transform: translate(-50%, -50%);"><script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.1/umd/signup-form.min.js" data-label-1="pc-swtich" data-button-color="#073763" data-button-text-color="#FFFFFF" data-site="https://www.ajfriesen.com/" async></script></div>
+
+
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
@@ -17,18 +17,22 @@ title: pc-switch
 
 {{% blocks/section color="dark" type="row" %}}
 
-{{% blocks/feature icon="fa fa-server" title="Your Server or NAS is in a different room or even a rack?" %}}
+{{% blocks/feature icon="fa fa-server" title="Control your PC or server from anywhere" %}}
+
+Your Server or NAS is in a different room or even a rack?
 
 {{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa fa-house-signal" title="Integrate into Home Assistant" %}}
+You want to automatically turn on, off your PC based on time or any other condition?
+{{% /blocks/feature %}}
+
 
 
 {{% blocks/feature icon="fa fa-gamepad" title="Local Game Streaming" %}}
 You have a powerful gaming PC but you can not turn it on with your TV or handheld like the Steam Deck?
 {{% /blocks/feature %}}
 
-
-{{% blocks/feature icon="fa fa-house-signal" title="Integrate into Home Assistant" %}}
-{{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa fa-children" title="Hardware Parental control for Kids" %}}
 Your kids tend to use the PC more than you would like.
@@ -51,16 +55,18 @@ With a local API you can integrate that into whatever you want.
 
 {{% blocks/section %}}
 <div class="text-center">
-<p>You need the <b>pc-switch</b>!</p>
+<p>As a nerd, you need the <b>pc-switch</b>! (Not the final product.)</p>
 
 <img src="pc-switch-front.png" class="rounded img-fluid float-start" style="width: 500px;" alt="...">
 <img src="pc-switch-back.png" class="rounded img-fluid float-end" style="width: 550px;" alt="...">
+
+
 
 </div>
 {{% /blocks/section %}}
 
 
-{{% blocks/section type="row" %}}
+{{% blocks/section color="dark" type="row" %}}
 
 
 
@@ -96,7 +102,7 @@ You can integrate the pc-switch via a simple API to almost anything you like
 We value your privacy
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-app-store-ios" title="No **propriaty** App needed" %}}
+{{% blocks/feature icon="fab fa-app-store-ios" title="No **proprietary** App needed" %}}
 Everything is manageable via the web interface or the Home Assistant integration.
 {{% /blocks/feature %}}
 
