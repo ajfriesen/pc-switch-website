@@ -9,3 +9,4 @@ menu:
 ---
 
 
+Welcome to the pc-switch documentation. This is a work in progress.
