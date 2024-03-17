@@ -12,21 +12,20 @@ A small PCB that can be connected between your PC front IO and motherboard/mainb
 
 ## What can it do?
 
-- Power on/off (Shutdown)
+- Power on
+- Power off (Regular Shutdown)
 - Hard shutdown (5-second hold)
 - Reset
 - Monitor PC state (on/off)
-- Still be able to use the front panel connectors buttons for power, reset, and the power led.
-- Power with 2 header pins. Grab power from your motherboard USB or other connectors.
-## Why do I want it?
+- Still be able to use the front panel connectors buttons for power, reset, and the power led
+- Power from USB 2.0 9 Pin Header (USB always power needs to be on)
 
-Help your user know if your project will help them. Useful information can include: 
+## Technical Specs
 
-* **What is it good for?**: What types of problems does your project solve? What are the benefits of using it?
+- USB-C connectivity (Serial Flashing)
+- PCB Size
+- Power
 
-* **What is it not good for?**: For example, point out situations that might intuitively seem suited for your project, but aren't for some reason. Also mention known limitations, scaling issues, or anything else that might let your users know if the project is not for them.
+## Measurements
 
-* **What is it *not yet* good for?**: Highlight any useful features that are coming soon.
-
-
-
+Coming soon.
