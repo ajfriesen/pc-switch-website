@@ -51,7 +51,11 @@ With a local API you can integrate that into whatever you want.
 
 {{% blocks/section %}}
 <div class="text-center">
-You need the <b>pc-switch</b>!
+<p>You need the <b>pc-switch</b>!</p>
+
+<img src="pc-switch-front.png" class="rounded img-fluid float-start" style="width: 500px;" alt="...">
+<img src="pc-switch-back.png" class="rounded img-fluid float-end" style="width: 550px;" alt="...">
+
 </div>
 {{% /blocks/section %}}
 
