@@ -2,7 +2,7 @@
 title: pc-switch
 ---
 
-{{< blocks/cover title="pc-switch: Remotely control your PC, Server and NAS!" image_anchor="top" height="full" color="primary" >}}
+{{< blocks/cover title="pc-switch: Remote Power Control for your PC, Server and NAS!" image_anchor="top" height="full" color="primary" >}}
 <p class="lead mt-5 fs-1 fw-bold font-monospace"><b>Your PC needs this!</b></p>
 
 <br>
@@ -45,7 +45,7 @@ Save 33% power by powering off your PC, NAS or Server over night (8 hours of sle
 
 
 {{% blocks/feature icon="fa fa-tape" title="Connect to anything" %}}
-With a local API you can integrate that into whatever you want.
+A local API that you can integrate into your project.
 {{% /blocks/feature %}}
 
 
@@ -113,6 +113,11 @@ Everything is manageable via the web interface or the Home Assistant integration
 {{% blocks/feature icon="fa fa-microchip" title="You own the Hardware" %}}
 You can flash the standalone version, the Home Assistant version or any other software.
 It is yours and will even work if the project is dead.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa fa-lightbulb" title="With RGB!" %}}
+For you gamers, it has RGB!
+For other, you can use it as status LED or turn it off.
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
